@@ -1,0 +1,14 @@
+# RAG Prototype Requirements
+
+# Vector Database
+chromadb>=0.4.22
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Embeddings
+sentence-transformers>=2.3.0
+torch>=2.0.0
+
+# Utilities
+numpy>=1.24.0
