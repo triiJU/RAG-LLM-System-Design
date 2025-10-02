@@ -20,15 +20,15 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environments
+# Virtual Environment
 venv/
 env/
 ENV/
 .venv
 
 # ChromaDB
-.chroma/
-chroma.sqlite3
+chroma_db/
+*.db
 
 # IDE
 .vscode/
@@ -40,6 +40,9 @@ chroma.sqlite3
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
 
 # Temporary files
 /tmp/
